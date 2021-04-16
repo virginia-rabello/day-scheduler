@@ -18,7 +18,11 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,8 +32,56 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    <div class="container table-responsive-md">
+        <table class="table-hover">
+            <tbody>
+                <tr class="row">
+                    <td class="hour">9AM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">10AM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">11AM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">12PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">1PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">2PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">3PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">4PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+                <tr class="row">
+                    <td class="hour">5PM</th>
+                    <td class="task-column">Task</td>
+                    <td class="save"><button class="saveBtn"><i><span class="oi oi-folder"></i></span></button></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

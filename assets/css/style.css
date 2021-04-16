@@ -57,16 +57,36 @@ body {
     background-color: #77dd77;
     color: white;
   }
+
+  .save {
+      width: 85px;
+  }
   
   .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+      margin-top: 0%;
+      width: 85px;
+      height: 80px;
+      border-left: 1px solid black;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      background-color: #06AED5;
+      color: white;
   }
   
   .saveBtn i:hover {
     font-size: 20px;
     transition: all .3s ease-in-out;
+    color:black;
   }
+
+  .hour{
+      width: 90px;
+  }
+
+  .task-column {
+      width:900px;
+  }
+
+
+
+ 
