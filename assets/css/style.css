@@ -36,6 +36,8 @@ body {
     height: 89px;
     border-top: 1px solid white;;
   }
+
+
   
   .hour {
     background-color: #ffffff;
@@ -83,6 +85,7 @@ body {
 
   .task-column {
       width:900px;
+      border: 1px solid white;
   }
 
   .text-area{
