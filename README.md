@@ -9,6 +9,6 @@ This app is a tool to help the user to organize the daily tasks, the requirement
 - It has to present the use of the moment.js functions to monitor the time and atualize the lines colors at real time;
 - The tasks have to be persistent after refresh the page.(local storage use);
 
-![screenshot at 9:35am](assets\images\at-9-35.jpg)
-![screenshot at 10:00am](assets\images\at-10am.jpg)
-![screenshot on Sunday](assets\images\sunday.jpg)
+![screenshot at 9:35am](https://github.com/virginia-rabello/day-scheduler/blob/main/assets/images/at-9-35.jpg)
+![screenshot at 10:00am](https://github.com/virginia-rabello/day-scheduler/blob/main/assets/images/at-10am.jpg)
+![screenshot on Sunday](https://github.com/virginia-rabello/day-scheduler/blob/main/assets/images/sunday.jpg)
